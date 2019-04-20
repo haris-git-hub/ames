@@ -14,7 +14,9 @@
 	<name>ames</name>
 	<description>Spring Boot AMES Project</description>
 
+<!--
 	<packaging>war</packaging>
+-->
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -37,18 +39,18 @@
 			<scope>test</scope>
 		</dependency>
 			
-<!--  for war -->
+	<!--  for war 
 	<dependency>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-thymeleaf</artifactId>
 	</dependency>
 
-	<!-- marked the embedded servlet container as provided -->
 	<dependency>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-tomcat</artifactId>
 		<scope>provided</scope>
 	</dependency>	
+		-->
 		
 	</dependencies>
 
